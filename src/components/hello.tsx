@@ -7,6 +7,8 @@ export interface HelloProps {
 
 export const Hello = (props: HelloProps) => {
   return (
-    <h1>Hello from {props.compiler} and {props.framework}!</h1>
+    <div>
+      <h1>Hello from {props.compiler} and {props.framework}!</h1>
+    </div>
   );
 }

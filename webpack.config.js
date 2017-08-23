@@ -5,6 +5,9 @@ module.exports = {
     path: __dirname + '/dist'
   },
   devtool: 'source-map',
+  devServer: {
+    contentBase: './src'
+  },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json']
   },
