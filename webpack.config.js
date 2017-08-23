@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: './src/index.tsx',
   output: {
@@ -8,6 +10,9 @@ module.exports = {
   devServer: {
     contentBase: './src'
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json']
   },
