@@ -7,7 +7,8 @@ This project is a starting point to create an application using react and TypeSc
 To use this kit, simply type
 
 ```
-git clone https://github.com/Ledragon/react-ts-seed.git
+git clone https://github.com/Ledragon/react-ts-seed.git MyProject
+cd MyProject
 git remote remove origin
 npm i
 npm start
