@@ -2,6 +2,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: './src/index.tsx',
+  mode: 'development',
   output: {
     filename: 'bundle.js',
     path: __dirname + '/dist'
